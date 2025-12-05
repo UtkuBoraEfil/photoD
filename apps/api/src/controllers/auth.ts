@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import bcrypt from "bcrypt";
 import crypto from "crypto";
-import { prisma } from "../prisma/client";
+import { prisma } from "../prisma/client"; // burasi neden hata veriyor??? cunku prisma client yok ama onu yapinca da hata veriyor
 
 import {
   registerSchema,
