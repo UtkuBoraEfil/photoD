@@ -1,5 +1,5 @@
 {
-  "name": "photoD-monorepo",
+  "name": "photod-monorepo",
   "private": true,
   "scripts": {
     "build": "turbo run build",

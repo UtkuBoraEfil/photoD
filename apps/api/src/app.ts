@@ -23,4 +23,3 @@ app.use("/user", requireAuth, userRoutes); //protected
 
 export default app;
 
-// Note: yarin yapilacaklar: auth controller register ve logout fonksiyonlarini yap, ardindan user controllers /me ve 1-2 tane daha yap test et middleware i.
